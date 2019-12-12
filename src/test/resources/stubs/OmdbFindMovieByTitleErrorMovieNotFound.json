@@ -1,0 +1,14 @@
+{
+  "request": {
+    "queryParameters": {
+      "t": {
+        "equalTo": "This is an example, it does not exist."
+      }
+    }
+  },
+
+  "response": {
+    "status": 200,
+    "body": "{ \"Response\": \"False\", \"Error\": \"Movie not found!\" }"
+  }
+}
