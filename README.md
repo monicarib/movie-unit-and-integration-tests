@@ -16,4 +16,5 @@ The purpose of this project is to teach unit and integration tests.
 
 #### Descrição Branches e Conceitos
 **master**: apenas estrutura inicial do projeto.
+
 **startup-mentoria**: estrutura inicial do projeto + *integração com a API* do iMDb feita com *Feign* + *testes unitários* na integração + utilização de stubs.
