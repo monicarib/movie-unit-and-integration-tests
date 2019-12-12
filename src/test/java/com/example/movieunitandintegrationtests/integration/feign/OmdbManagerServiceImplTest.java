@@ -4,7 +4,6 @@ import com.example.movieunitandintegrationtests.BaseIntegrationTest;
 import com.example.movieunitandintegrationtests.integration.OmdbManagerService;
 import com.example.movieunitandintegrationtests.integration.exception.OmdbIntegrationException;
 import com.example.movieunitandintegrationtests.service.Movie;
-import kotlin.jvm.JvmField;
 import org.junit.Assert;
 import org.junit.Rule;
 import org.junit.Test;
@@ -24,7 +23,6 @@ public class OmdbManagerServiceImplTest extends BaseIntegrationTest {
     private OmdbManagerService omdbManagerService;
 
     @Rule
-    @JvmField
     public ExpectedException expectedException = ExpectedException.none();
 
     @Test
