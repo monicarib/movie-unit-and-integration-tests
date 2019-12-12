@@ -1,14 +1,14 @@
 package com.example.movieunitandintegrationtests.service;
 
 public class Movie {
-    public String title;
-    public String released;
-    public String runtime;
-    public String genre;
-    public String director;
-    public String plot;
-    public String imdbRating;
-    public Boolean isRecommended;
+    private String title;
+    private String released;
+    private String runtime;
+    private String genre;
+    private String director;
+    private String plot;
+    private String imdbRating;
+    private Boolean isRecommended;
 
     public String getTitle() {
         return title;
